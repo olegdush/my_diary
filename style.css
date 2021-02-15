@@ -1,0 +1,42 @@
+body {
+      width: 100vw;
+      height: 100vh;
+      background-image: url("https://cdn.pixabay.com/photo/2018/08/29/09/55/school-3639525_960_720.jpg");
+      background-size: cover;
+      background-position: center;
+      
+}
+* {
+      margin: 0;
+      padding: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header h1 {
+      background-color: rgba(0, 0, 0, 0.37);
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      border-bottom: rgba(0, 0, 0, 0.637) solid 3px;
+      color: rgb(51, 35, 0);
+
+}
+th {
+      text-align: left;
+      border-right: solid black 2px;
+}
+.chek {
+      float: right;
+}
+table {
+      width: 100%;
+}
+iframe {
+      width: 90%;
+      margin-top: 5%;
+      margin-left: 5%;
+      height: 50%;
+}
+a {
+      text-decoration: none;
+      color: black;
+}
