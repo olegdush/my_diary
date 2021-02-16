@@ -138,25 +138,25 @@ window.onload = function hi() {
       }
       if (week == "Середа") {
             urok1.textContent = "Алгебра";
-            urok1.href = "/uroky/algebra.html";
+            urok1.href = "../uroky/algebra.html";
             dz1.textContent = algebra;
             urok2.textContent = "Етика";
-            urok2.href = "/uroky/etica.html";
+            urok2.href = "../uroky/etica.html";
             dz2.textContent = etika;
             urok3.textContent = "Нім мова";
-            urok3.href = "/uroky/deutch.html";
+            urok3.href = "../uroky/deutch.html";
             dz3.textContent = deutch;
             urok4.textContent = "Англ мова";
-            urok4.href = "/uroky/english.html";
+            urok4.href = "../uroky/english.html";
             dz4.textContent = english;
             urok5.textContent = "Фізика";
-            urok5.href = "/uroky/physik.html";
+            urok5.href = "../uroky/physik.html";
             dz5.textContent = physik;
             urok6.textContent = "Біологія";
-            urok6.href = "/uroky/biologia.html";
+            urok6.href = "../uroky/biologia.html";
             dz6.textContent = biologia;
             urok7.textContent = "Музика";
-            urok7.href = "/uroky/musik.html";
+            urok7.href = "../uroky/musik.html";
             dz7.textContent = musik;
             urok8.textContent = "ГКК";
       }
