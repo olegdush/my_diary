@@ -1,10 +1,30 @@
 window.onload = function hi() {
+      let ukr_mowa = "&31"; //укр мова
+      let ukr_lit = "ст 98-99"; //укр літ
+      let zarub_lit = "контрольна"; //заруб
+      let etika = "вивчити з біблії"; //етика
+      let english = "впр 5 ст 110"; //англ
+      let deutch = "впр 6 ст 104"; //нім
+      let algebra = "№685, 686, 688, 690"; //алгебра
+      let geometria = "&3 п16-18, №457, 458, 465";//геометрія
+      let inform = "нічого";//інформатика
+      let history = "КОНТРОЛЬНА"//історія
+      let geographia = "КОНТРОЛЬНА";//географія
+      let biologia = "нічого";//біологія
+      let physik = "нічого";//фізика
+      let ximia = "практична";//хімія
+      let musik = "нічого";//музика
+      let os_zdor = "нічого";//основи зд
+      let ob_mys = "малюнок до твору лесі українки";//образотворче
+
+
+
       let day = document.getElementById("weekday");
       let dater = new Date();
       week = dater.getDay();
       console.log(week);
 
-      // week = 4;
+      // week = 3;
 
       if (week == 0) {
             week = week + 1
@@ -60,90 +80,6 @@ window.onload = function hi() {
       let urok6 = document.getElementById("urok6");
       let urok7 = document.getElementById("urok7");
       let urok8 = document.getElementById("urok8");
-      if (week == "Понеділок") {
-            urok1.textContent = "Нім мова";
-            urok1.href = "/uroky/deutch.html";
-            urok2.textContent = "Англ мова";
-            urok2.href = "/uroky/english.html";
-            urok3.textContent = "Алгебра";
-            urok3.href = "/uroky/algebra.html";
-            urok4.textContent = "Хімія";
-            urok4.href = "/uroky/ximia.html";
-            urok5.textContent = "Укр мова";
-            urok5.href = "/uroky/ukr-mowa.html";
-            urok6.textContent = "Ф-ра";
-            urok7.textContent = "Основи здоров`я";
-            urok7.href = "/uroky/os-zdorovia.html";
-            urok8.textContent = "Трудове";
-      }
-      if (week == "Вівторок") {
-            urok1.textContent = "Укр мова";
-            urok1.href = "/uroky/ukr-mowa.html";
-            urok2.textContent = "Заруб літ";
-            urok2.href = "/uroky/zarubizna.html";
-            urok3.textContent = "Геометрія";
-            urok3.href = "/uroky/geometria.html";
-            urok4.textContent = "Укр літ";
-            urok4.href = "/uroky/ukr-lit.html";
-            urok5.textContent = "Ф-ра";
-            urok6.textContent = "Географія";
-            urok6.href = "/uroky/geographia.html";
-            urok7.textContent = "Інформатика І";
-            urok7.href = "/uroky/informatica.html";
-            urok8.textContent = "нема";
-      }
-      if (week == "Середа") {
-            urok1.textContent = "Алгебра";
-            urok1.href = "/uroky/algebra.html";
-            urok2.textContent = "Етика";
-            urok2.href = "/uroky/etica.html";
-            urok3.textContent = "Нім мова";
-            urok3.href = "/uroky/deutch.html";
-            urok4.textContent = "Англ мова";
-            urok4.href = "/uroky/english.html";
-            urok5.textContent = "Фізика";
-            urok5.href = "/uroky/physik.html";
-            urok6.textContent = "Біологія";
-            urok6.href = "/uroky/biologia.html";
-            urok7.textContent = "Музика";
-            urok7.href = "/uroky/musik.html";
-            urok8.textContent = "ГКК";
-      }
-      if (week == "Четвер") {
-            urok1.textContent = "Укр мова";
-            urok1.href = "/uroky/ukr-mowa.html";
-            urok2.textContent = "Укр літ";
-            urok2.href = "/uroky/ukr-lit.html";
-            urok3.textContent = "Історія";
-            urok3.href = "/uroky/history.html";
-            urok4.textContent = "Англ мова/Алгебра";
-            urok4.href = "/uroky/english.html";
-            urok5.textContent = "Заруб літ";
-            urok5.href = "/uroky/zarubizna.html";
-            urok6.textContent = "Географія";
-            urok6.href = "/uroky/geographia.html";
-            urok7.textContent = "Інформатика ІІ";
-            urok7.href = "/uroky/informatica.html";
-            urok8.textContent = "нема";
-      }
-      if (week == "П'ятниця") {
-            urok1.textContent = "Біологія";
-            urok1.href = "/uroky/biologia.html";
-            urok2.textContent = "Історія";
-            urok2.href = "/uroky/history.html";
-            urok3.textContent = "Фізика";
-            urok3.href = "/uroky/physik.html";
-            urok4.textContent = "Геометрія";
-            urok4.href = "/uroky/geometria.html";
-            urok5.textContent = "Укр мова/Хімія";
-            urok5.href = "/uroky/ukr-mowa.html";
-            urok6.textContent = "Образотворче";
-            urok6.href = "/uroky/obrazotvorche.html";
-            urok7.textContent = "Ф-ра";
-            urok8.textContent = "нема";
-      }
-
-
 
       let dz1 = document.getElementById("dz1");
       let dz2 = document.getElementById("dz2");
@@ -156,7 +92,120 @@ window.onload = function hi() {
 
 
 
-      let c = document.getElementById("red");
+      if (week == "Понеділок") {
+            urok1.textContent = "Нім мова";
+            urok1.href = "/uroky/deutch.html";
+            dz1.textContent = deutch;
+            urok2.textContent = "Англ мова";
+            urok2.href = "/uroky/english.html";
+            dz2.textContent = english;
+            urok3.textContent = "Алгебра";
+            urok3.href = "/uroky/algebra.html";
+            dz3.textContent = algebra;
+            urok4.textContent = "Хімія";
+            urok4.href = "/uroky/ximia.html";
+            dz4.textContent = ximia;
+            urok5.textContent = "Укр мова";
+            urok5.href = "/uroky/ukr-mowa.html";
+            dz5.textContent = ukr_mowa;
+            urok6.textContent = "Ф-ра";
+            urok7.textContent = "Основи здоров`я";
+            urok7.href = "/uroky/os-zdorovia.html";
+            dz7.textContent = os_zdor;
+            urok8.textContent = "Трудове";
+      }
+      if (week == "Вівторок") {
+            urok1.textContent = "Укр мова";
+            urok1.href = "/uroky/ukr-mowa.html";
+            dz1.textContent = ukr_mowa;
+            urok2.textContent = "Заруб літ";
+            urok2.href = "/uroky/zarubizna.html";
+            dz2.textContent = zarub_lit;
+            urok3.textContent = "Геометрія";
+            urok3.href = "/uroky/geometria.html";
+            dz3.textContent = geometria;
+            urok4.textContent = "Укр літ";
+            urok4.href = "/uroky/ukr-lit.html";
+            dz4.textContent = ukr_lit;
+            urok5.textContent = "Ф-ра";
+            urok6.textContent = "Географія";
+            urok6.href = "/uroky/geographia.html";
+            dz6.textContent = geographia;
+            urok7.textContent = "Інформатика І";
+            urok7.href = "/uroky/informatica.html";
+            dz7.textContent = inform;
+            urok8.textContent = "нема";
+      }
+      if (week == "Середа") {
+            urok1.textContent = "Алгебра";
+            urok1.href = "/uroky/algebra.html";
+            dz1.textContent = algebra;
+            urok2.textContent = "Етика";
+            urok2.href = "/uroky/etica.html";
+            dz2.textContent = etika;
+            urok3.textContent = "Нім мова";
+            urok3.href = "/uroky/deutch.html";
+            dz3.textContent = deutch;
+            urok4.textContent = "Англ мова";
+            urok4.href = "/uroky/english.html";
+            dz4.textContent = english;
+            urok5.textContent = "Фізика";
+            urok5.href = "/uroky/physik.html";
+            dz5.textContent = physik;
+            urok6.textContent = "Біологія";
+            urok6.href = "/uroky/biologia.html";
+            dz6.textContent = biologia;
+            urok7.textContent = "Музика";
+            urok7.href = "/uroky/musik.html";
+            dz7.textContent = musik;
+            urok8.textContent = "ГКК";
+      }
+      if (week == "Четвер") {
+            urok1.textContent = "Укр мова";
+            urok1.href = "/uroky/ukr-mowa.html";
+            dz1.textContent = ukr_mowa;
+            urok2.textContent = "Укр літ";
+            urok2.href = "/uroky/ukr-lit.html";
+            dz2.textContent = ukr_lit;
+            urok3.textContent = "Історія";
+            urok3.href = "/uroky/history.html";
+            dz3.textContent = history;
+            urok4.textContent = "Англ мова/Алгебра";
+            urok4.href = "/uroky/english.html";
+            dz4.textContent = english;
+            urok5.textContent = "Заруб літ";
+            urok5.href = "/uroky/zarubizna.html";
+            dz5.textContent = zarub_lit;
+            urok6.textContent = "Географія";
+            urok6.href = "/uroky/geographia.html";
+            dz6.textContent = geographia;
+            urok7.textContent = "Інформатика ІІ";
+            urok7.href = "/uroky/informatica.html";
+            dz7.textContent = inform;
+            urok8.textContent = "нема";
+      }
+      if (week == "П'ятниця") {
+            urok1.textContent = "Біологія";
+            urok1.href = "/uroky/biologia.html";
+            dz1.textContent = biologia;
+            urok2.textContent = "Історія";
+            urok2.href = "/uroky/history.html";
+            dz2.textContent = history;
+            urok3.textContent = "Фізика";
+            urok3.href = "/uroky/physik.html";
+            dz3.textContent = physik;
+            urok4.textContent = "Геометрія";
+            urok4.href = "/uroky/geometria.html";
+            dz4.textContent = geometria;
+            urok5.textContent = "Укр мова/Хімія";
+            urok5.href = "/uroky/ukr-mowa.html";
+            dz5.textContent = ukr_mowa;
+            urok6.textContent = "Образотворче";
+            urok6.href = "/uroky/obrazotvorche.html";
+            dz6.textContent = ob_mys;
+            urok7.textContent = "Ф-ра";
+            urok8.textContent = "нема";
+      }
 
 
 
@@ -164,17 +213,6 @@ window.onload = function hi() {
 
 
 
-
-      c.textContent = "Редаговано: " + "2021.2.12, 16:15"
-      // уроки
-      dz1.textContent = "КОНТРОЛЬНА";
-      dz2.textContent = "КОНТРОЛЬНА";
-      dz3.textContent = "";
-      dz4.textContent = "прочитати 194-196, дати відповіді на питання ст. 197.";
-      dz5.textContent = "";
-      dz6.textContent = "&38 пит. 4 ст. 155";
-      dz7.textContent = "";
-      dz8.textContent = "";
 
 
 
