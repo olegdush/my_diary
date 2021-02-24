@@ -1,19 +1,19 @@
 window.onload = function hi() {
-      let ukr_mowa = "нічого"; //укр мова
-      let ukr_lit = "виразно читати вірші Ліни Костенко"; //укр літ
-      let zarub_lit = "контрольна дописувати"; //заруб
+      let ukr_mowa = "&33, впр 384"; //укр мова
+      let ukr_lit = " сенкан і твір за метафорою на тему дощ"; //укр літ
+      let zarub_lit = "ст 169-198"; //заруб
       let etika = "вивчити з біблії"; //етика
-      let english = "впр 4,5 ст 120"; //англ
-      let deutch = "впр 5 ст 109, написати твір про улюблене свято"; //нім
-      let algebra = "№ 712, 714, 716, 718"; //алгебра
+      let english = "впр 1, 2, 3 ст 121"; //англ
+      let deutch = "пит ст. 113"; //нім
+      let algebra = "№ 720, самостійна"; //алгебра
       let geometria = "&3 п16-18, №459, 463, 474";//геометрія
       let inform = "нічого";//інформатика
       let history = "&10"//історія
-      let geographia = "НІЧОГО";//географія
-      let biologia = "&30";//біологія
-      let physik = "&14-21";//фізика
+      let geographia = "&42, карта";//географія
+      let biologia = "нічого";//біологія
+      let physik = "нічого";//фізика
       let ximia = "нічого";//хімія
-      let musik = "вивчити про: Софію Ротару, Джамалу, Алла Пугочова";//музика
+      let musik = "нічого";//музика
       let os_zdor = "нічого";//основи зд
       let ob_mys = "нічого";//образотворче
 
@@ -24,7 +24,7 @@ window.onload = function hi() {
       week = dater.getDay();
       console.log(week);
 
-      // week = 3;
+      // week = 2;
 
       if (week == 0) {
             week = week + 1
@@ -171,8 +171,8 @@ window.onload = function hi() {
             urok3.href = "history.html";
             dz3.textContent = history;
             urok4.textContent = "Англ мова/Алгебра";
-            urok4.href = "english.html";
-            dz4.textContent = english;
+            urok4.href = "algebra.html";
+            dz4.textContent = algebra;
             urok5.textContent = "Заруб літ";
             urok5.href = "zarubizna.html";
             dz5.textContent = zarub_lit;
